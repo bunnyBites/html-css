@@ -1,0 +1,72 @@
+body {
+  background-color: #DEFCF9;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+  color: #66BFBF;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h2, h3 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+
+.profile-img {
+  height: 200px;
+  margin-top: 200px;
+  width: 200px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: relative;
+  left: 250px;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img, .chillie-img {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.computer-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.chillie-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.chillie-desc { clear: right; }
+.computer-desc { clear: left; }
